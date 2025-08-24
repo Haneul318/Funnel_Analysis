@@ -1,10 +1,13 @@
 # 🛍️ E-commerce User Funnel Analysis  
 **SQL (PostgreSQL) + Tableau + Data Analytics**
 
+
+
 ## 📌 Project Overview
 This project focuses on analyzing **user funnel performance** for an e-commerce platform.  
 Using a dataset containing user actions across multiple funnel stages, we identified **conversion rates**, **drop-off rates**, and insights into **user behavior patterns**.  
 The analysis includes **data cleaning**, **SQL queries** using **PostgreSQL (via DBeaver)**, and **interactive visualizations** created with **Tableau**.
+
 
 ---
 
@@ -24,6 +27,8 @@ The analysis includes **data cleaning**, **SQL queries** using **PostgreSQL (via
 
 ---
 
+
+
 ## 🛠️ Tools & Technologies  
 | Tool / Tech      | Usage |
 |------------------|-------|
@@ -34,6 +39,63 @@ The analysis includes **data cleaning**, **SQL queries** using **PostgreSQL (via
 | **GitHub**       | Hosting project documentation and code |
 
 ---
+
+
+
+## 📊 SQL Query (DBeaver Screenshot)
+
+The funnel metrics were calculated using SQL on **PostgreSQL** and executed via **DBeaver**.
+
+
+![SQL Query](https://github.com/Haneul318/Funnel_Analysis/blob/main/Funnel-analysis/Data/processed.csv/dbeaver.png)
+
+
+---
+
+
+
+## 📈 Tableau Funnel Visualization
+
+The Tableau dashboard visualizes:
+- Users at each stage
+- Cumulative conversion rate
+- Step conversion rate
+- Drop-off rate (darker colors = higher drop-offs)
+
+![Funnel Dashboard](https://github.com/Haneul318/Funnel_Analysis/blob/main/Funnel-analysis/tableau/funnel%20analysis.png?raw=true)
+
+> **Interactive Dashboard:** [🔗 View on Tableau Public](https://public.tableau.com/app/profile/your-link)
+
+---
+
+
+
+## 🔍 Key Insights
+| Stage        | Users | Cumulative Conversion | Step Conversion | Drop-off |
+|-------------|-------|------------------------|-----------------|----------|
+| Homepage    | 10,000 | 100%   | —   | —   |
+| Product Page| 5,000  | 50%    | **50%** | **50%** |
+| Cart        | 1,500  | 15%    | **30%** | **70%** |
+| Checkout    | 450    | 4.5%   | **30%** | **70%** |
+| Purchase    | 225    | 2.25%  | **50%** | **50%** |
+
+### **Findings**
+- **50% of users** drop off before visiting the **product page**.
+- The **highest drop-off** occurs between **Product Page → Cart (70%)**.
+- Another **70% drop-off** happens at **Cart → Checkout**.
+- Of the **450 users** reaching checkout, only **225 completed purchases** (**50% step conversion**).
+
+---
+
+## 💡 Recommendations
+| Area                | Observation | Recommendation |
+|--------------------|------------|---------------|
+**Product Page → Cart** | 70% drop-off | Improve product descriptions, optimize add-to-cart UX, highlight promotions |
+**Cart → Checkout**    | 70% drop-off | Enable guest checkout, clarify pricing, improve payment flows |
+**Checkout → Purchase**| 50% drop-off | Provide more payment methods, enhance security trust signals |
+
+---
+
 
 ## 🔍 Limitations
 
@@ -57,10 +119,24 @@ While this project demonstrates a full end-to-end funnel analysis workflow, ther
 
 ---
 
-**Future Work**:  
-To improve the quality and reliability of the analysis, future iterations could:
-- Use a **larger, event-level dataset** with millions of user actions.
-- Incorporate **cohort analysis**, **session duration**, and **multi-touch conversion attribution**.
-- Connect directly to a **real-time analytics warehouse** for more scalable dashboards.
+
+
+## 🚀 Future Improvements
+- Use a **larger, event-level dataset** for deeper insights.
+- Add **cohort analysis** for retention trends.
+- Automate SQL → Tableau pipelines.
+- Build a **real-time dashboard** using Tableau or Power BI.
+
+
 
 ---
+**Author:** Sky  
+📧 Contact: [E-mail](haneulkim1214@gmail.com)  
+🔗 LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/haneul-kim-5a7572371/)
+
+
+
+
+
+
+
