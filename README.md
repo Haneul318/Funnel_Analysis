@@ -64,7 +64,7 @@ The Tableau dashboard visualizes:
 
 ![Funnel Dashboard](https://github.com/Haneul318/Funnel_Analysis/blob/main/Funnel-analysis/tableau/funnel%20analysis.png?raw=true)
 
-> **Interactive Dashboard:** [🔗 View on Tableau Public](https://public.tableau.com/app/profile/your-link)
+> **Interactive Dashboard:** [🔗 View on Tableau Public](https://public.tableau.com/app/profile/haneul.kim8784/viz/Funnel_Analysis_17560160847610/Dashboard1?publish=yes)
 
 ---
 
