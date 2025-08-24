@@ -35,4 +35,32 @@ The analysis includes **data cleaning**, **SQL queries** using **PostgreSQL (via
 
 ---
 
-## 🗂️ Project Structure
+## 🔍 Limitations
+
+While this project demonstrates a full end-to-end funnel analysis workflow, there are several **limitations** to consider:
+
+1. **Limited Dataset Size**  
+   - The analyzed dataset contained only **3 aggregated rows** summarizing user counts by stage.  
+   - Because of this, advanced statistical modeling and deeper segmentation analysis were not feasible.
+
+2. **Lack of Granular User-Level Data**  
+   - Ideally, a complete funnel dataset would include **raw user-level event data** (e.g., `user_id`, `timestamp`, `session_id`, etc.).
+   - Without granular behavioral data, we could not analyze session patterns, time-to-conversion, or multi-touch attribution.
+
+3. **Funnel Dataset Availability**  
+   - High-quality user funnel datasets are rarely publicly available due to **data privacy regulations** and **company confidentiality**.
+   - This project used a simulated dataset intended for educational purposes, which may not reflect a real-world business scenario.
+
+4. **Simplified Metrics**  
+   - Step conversion rates and drop-off rates were calculated using simple formulas based on aggregated data.
+   - In a production environment, we would validate these metrics with event-level tracking and robust A/B testing frameworks.
+
+---
+
+**Future Work**:  
+To improve the quality and reliability of the analysis, future iterations could:
+- Use a **larger, event-level dataset** with millions of user actions.
+- Incorporate **cohort analysis**, **session duration**, and **multi-touch conversion attribution**.
+- Connect directly to a **real-time analytics warehouse** for more scalable dashboards.
+
+---
