@@ -1,0 +1,6 @@
+stage,users,cumulative_conversion_rate,step_conversion_rate,drop_off_rate,Total_user
+homepage,10000,100,,,17175
+product_page,5000,50,50,50,
+cart,1500,15,30,70,
+checkout,450,4.5,30,70,
+purchase,225,2.25,50,50,
