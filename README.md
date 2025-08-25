@@ -6,7 +6,7 @@
 ## 📌 Project Overview
 This project focuses on analyzing **user funnel performance** for an e-commerce platform.  
 Using a dataset containing user actions across multiple funnel stages, we identified **conversion rates**, **drop-off rates**, and insights into **user behavior patterns**.  
-The analysis includes **data cleaning**, **SQL queries** using **PostgreSQL (via DBeaver)**, and **interactive visualizations** created with **Tableau**.
+The analysis includes **data cleaning**, **SQL queries** using **PostgreSQL (via DBeaver)**, and **interactive visualizations** created with **Tableau Public**.
 
 
 ---
