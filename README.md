@@ -14,7 +14,7 @@ The analysis includes **data cleaning**, **SQL queries** using **PostgreSQL (via
 ## 📂 Dataset  
 **Dataset Name:** User Funnels Dataset  
 **File:** `user_data.csv`  
-**Size:** ~453 KB  
+**Size:** ~ 453 KB  
 
 | Column       | Description |
 |-------------|------------|
