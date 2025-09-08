@@ -10,7 +10,7 @@ The analysis includes **data cleaning**, **SQL queries** using **PostgreSQL (via
 
 
 ---
-
+ 
 ## 📂 Dataset  
 **Dataset Name:** User Funnels  Dataset  
 **File:** `user_data.csv`   
