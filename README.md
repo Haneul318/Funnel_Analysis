@@ -128,7 +128,6 @@ While this project demonstrates a full end-to-end funnel analysis workflow, ther
 - Build a **real-time dashboard** using Tableau or Power BI.
 
 
-
 ---
 **Author:** Sky  
 📧 Contact: [E-mail](haneulkim1214@gmail.com)  
